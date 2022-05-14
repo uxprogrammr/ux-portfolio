@@ -9,9 +9,12 @@ import {
   Works,
 } from "./containers";
 
+import { NavBar } from "./components";
+
 const App = () => {
   return (
     <div className="app">
+      <NavBar />
       <Header />
       <About />
       <Works />
